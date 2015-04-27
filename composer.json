@@ -1,0 +1,28 @@
+{
+  "name": "wpCloud/wp-cloud-docker",
+  "authors": [
+    {
+      "name": "Andy Potanin",
+      "email": "andy.potanin@usabilitydynamics.com"
+    },
+    {
+      "name": "Anton Korotkov",
+      "email": "anton.korotkov@usabilitydynamics.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wordpress-site:a98f52edc56dae806c91c80b1d7509c01c9aa352@repository.usabilitydynamics.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "lib/classes"
+    ]
+  },
+  "require": {
+    "UsabilityDynamics/docker-php": "@dev",
+    "sebastian/git": "2.0.*@dev"
+  }
+}
